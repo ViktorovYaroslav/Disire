@@ -1,4 +1,4 @@
-<!-- <?php include 'header.php' ?> -->
+<?php include 'header.php' ?> 
 
 <main class="main index">
    <div class="video__button_on"></div>
@@ -316,5 +316,5 @@
       </section>
    </div>
 </main>
-<!-- 
-<?php include 'footer.php' ?> -->
+
+<?php include 'footer.php' ?>
