@@ -1,0 +1,57 @@
+.title-h1,
+.title-h2,
+.title-h3,
+.title-h4,
+.title-h5,
+.title-h6{
+   color: var(--primary__title-color);
+   font-family: 'Montserrat', Verdana, 'Geneva', Tahoma, sans-serif;
+   font-weight: 700;
+   margin: 0;
+}
+.title-h1{
+   font-size: 3.75rem;
+   line-height: 133.33%;
+}
+.title-h2{
+   font-size: 2.25rem;
+   line-height: 141.66%;
+}
+.title-h3{
+   font-size: 1.5rem;
+   line-height: 158.33%;
+}
+.title-h4{
+   font-size: 1.25rem;
+   line-height: 122%;
+}
+.title-h5{
+   font-size: 1rem;
+   line-height: 143.75%;
+}
+.title-h6{
+   font-family: 'Open Sans', Verdana, 'Geneva', Tahoma, sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 169%;
+   color: var(--primary__text-color);
+}
+.text{
+   margin: 0;
+   font-weight: 400;
+}
+.line {
+   position: relative;
+}
+.line::after{
+   content: '';
+   max-width: 200px;
+   width: 100%;
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -22px;
+   background: var(--line-color);
+   height: 1px;
+   width: 100%;
+}
