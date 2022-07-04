@@ -1,4 +1,73 @@
-<?php include 'header.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Disire</title>
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+   <div class="_wrapper">
+      <header class="header">
+         <div class="_container header__container">
+            <nav class="header__menu">
+               <ul class="header__menu-list">
+                  <li class="header__menu-item">
+                     <a class="header__menu-link" href="about.html">About</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a class="header__menu-link" href="gallery.html">Gallery</a>
+                  </li>
+               </ul>
+            </nav>
+            <a class="logo" href="index.html">
+               <img src="images/header/logo.png" alt="logo">
+            </a>
+            <nav class="header__menu">
+               <ul class="header__menu-list">
+                  <li class="header__menu-item">
+                     <a class="header__menu-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <span> class="header__menu-link _active">Contact</span>
+                  </li>
+               </ul>
+            </nav>
+            <button class="header__btn">
+               <img src="images/header/icon_menu.svg" alt="header button">
+            </button>
+         </div>
+         <div class="breadcrumbs">
+            <nav class="breadcrumbs__container _container">
+               <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__item">
+                     <a class="breadcrumbs__link" href="/">Home</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+
+         <aside class="aside__bar">
+            <div class="aside__bar-main">
+               <button class="aside__bar-btn">
+                  <img src="images/header/menu_close.svg" alt="cross">
+               </button>
+               <a class="aside__bar-logo" href="/">
+                  <img src="images/header/logo-big.png" alt="logo">
+               </a>
+               <div class="aside__bar-item">
+                  <h2 class="aside__bar-title title-h2 line">Furniture for life</h2>
+                  <p class="aside__bar-text text">Sustainable hot chicken skateboard, dreamcatcher meggings actually
+                     squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</p>
+                  <div class="aside__bar-image _ibg">
+                     <img src="images/header/aside_photo.jpg" alt="furniture photo">
+                  </div>
+               </div>
+            </div>
+         </aside>
+      </header>
 
 <main class="main contact">
    <div class="video__button_on"></div>
@@ -328,5 +397,93 @@
       </div>
    </div>
 </main>
+<footer class="footer">
+      <div class="footer__top">
+         <div class="footer__top-container _container">
+            <div class="footer__top-item footer__contact">
+               <h5 class="footer__top-title title-h5">Contact Us</h5>
+               <p class="footer__top-text text">Keffiyeh poutine etsy, paleo cray put a bird on it microdosing
+                  schlitz you probably occupy
+               </p>
+               <a class="footer__top-email" href="mailto:viktorov.yaroslav@gmail.com">
+                  <img src="images/footer/mail.svg" alt="email icon">
+                  <span>viktorov.yaroslav@gmail.com</span>
+               </a>
+               <form class="footer__top-form footer__form">
+                  <input class="footer__form-input" type="email" placeholder="Subscribe by email">
+                  <button class="footer__form-submit" type="submit">Send</button>
+               </form>
 
-<?php include 'footer.php' ?>
+            </div>
+            <div class="footer__top-item footer__links">
+
+               <ul class="footer__links-list">
+                  <li class="footer__links-item">
+                     <a class="footer__links-link" href="#">
+                        <img src="images/footer/facebook.svg" alt="facebook icon">
+                        <span>Facebook</span>
+                     </a>
+                  </li>
+                  <li class="footer__links-item">
+                     <a class="footer__links-link" href="#">
+                        <img src="images/footer/instagram.svg" alt="instagram icon">
+                        <span>Instagram</span>
+                     </a>
+                  </li>
+                  <li class="footer__links-item">
+                     <a class="footer__links-link" href="#">
+                        <img src="images/footer/Pinterest.svg" alt="pinterest icon">
+                        <span>Pinterest</span>
+                     </a>
+                  </li>
+                  <li class="footer__links-item">
+                     <a class="footer__links-link" href="#">
+                        <img src="images/footer/whatsapp.svg" alt="whatsapp icon">
+                        <span>WhatsApp</span>
+                     </a>
+                  </li>
+                  <li class="footer__links-item">
+                     <a class="footer__links-link" href="#">
+                        <img src="images/footer/youtube.svg" alt="youtube icon">
+                        <span>Youtube</span>
+                     </a>
+                  </li>
+               </ul>
+
+               <nav class="footer__links-nav footer__nav">
+                  <ul class="footer__nav-list">
+                     <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">Delivery</a>
+                     </li>
+                     <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">FAQ</a>
+                     </li>
+                     <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">Help</a>
+                     </li>
+                     <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">More About Us</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+      <div class="footer__bottom">
+         <div class="footer__bottom-container _container">
+            <a class="footer__bottom-location text" href="https://www.google.com.ua/maps/search/674+Gonzales+Drive.+Washington,+PA+15301/@40.1787609,-80.2615382,14z/data=!3m1!4b1?hl=ru&authuser=0">674 Gonzales Drive. Washington, PA 15301</a>
+         </div>
+      </div>
+   </footer>
+
+   </div>
+
+
+
+   <script src="js/main.min.js"></script>
+
+</body>
+
+
+
+</html>
