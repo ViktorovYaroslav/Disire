@@ -48,7 +48,8 @@ tabsBtns.forEach(function (elem, i) {
    })
 });
 
-// header active links & breadcrumbs
+// header active links & breadcrumbs 
+// Only experimental thing, i tried to create breadcrumbs on native JS, on version with CMS (on my local host) breadcrumbs work throughout Yoast SEO
 
 const headerLinks = document.querySelectorAll('.header__menu-link');
 const crumps = document.querySelector('.breadcrumbs');
